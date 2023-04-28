@@ -5,22 +5,61 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <style>
+    div.center { text-align: center; }
+    img.shaded { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    div.spacer { height: 25px; }
+  </style>
 </head>
-<body style="font-family:Pacifico;">
+<body>
 	<div class="container center">
+    <div class="spacer"></div>
+    <div class="spacer"></div>
 		<div class="row">
-			<div class="col-md-12" style="height:200px;">
+			<div class="col-md-12" style="overflow:hidden; font-family:Pacifico;">
 				<h1 class="align-middle"> CRM For Twilio </h1>
 			</div>
 		</div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
 		<div class="row">
-			<div class="col-md-8">
-				<img src="/screenshots/conversations.png" style="width:800px" />
-			</div>
-			<div class="col-md-4">
-				<img src="/images/contact-bg.png" style="max-width:400px;" />
+			<div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+				<img class="shaded" src="screenshots/conversations.png" style="width:800px" />
 			</div>
 		</div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+		<div class="row">
+			<div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+        <a class="btn btn-primary btn-lg" href="https://chrome.google.com/webstore/detail/ognbklbhiedgjhgcmapjlngjbggimgbm/preview?hl=en" target="_blank">Go To Extension Page</a>
+			</div>
+		</div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Upload Contacts</h5>
+          <p class="card-text">Using Twilio's Sync Maps and Sync Lists, you can upload and keep a record of up to 10,000 contact records.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Text Messaging</h5>
+          <p class="card-text">Send notifications or have 2way conversations with your customers right from the CRM using Twilio's Programmable Messaging and Conversations.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Voice Calling</h5>
+          <p class="card-text">Make or receive voice calls right to your browser using Twilio's Programmable Voice..</p>
+        </div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
 	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
